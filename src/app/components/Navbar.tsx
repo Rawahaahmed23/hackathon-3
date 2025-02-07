@@ -40,7 +40,7 @@ const Navbar = () => {
             <Image src={navicon1} width={30} height={30} alt="account"/>
             <Image src={navicon2} width={30} height={30} alt="account"/>
             <Image src={navicon3} width={30} height={30} alt="account"/>
-            <Image src={navicon4} width={30} height={30} alt="account" />
+            <Link href={'/cart'}><Image src={navicon4} width={30} height={30} alt="account" /></Link>
 
         </div>
         {/* mobile nav */}
