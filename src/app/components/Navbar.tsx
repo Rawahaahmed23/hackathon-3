@@ -30,6 +30,8 @@ const Navbar = () => {
   
   return (
     <div className='flex flex-row justify-between w-full h-8 sm:h-20 sm:px-4 p-2 absolute'>
+     <h1 className='absolute mt-4 hidden sm:block text-3xl font-extrabold'>Pk Furniture</h1>
+
         <div className='hidden sm:flex flex-row justify-between font-normal text-xl justify-self-center sm:ml-[500px] items-center w-[30%] h-20 px-4 z-'>
             {navLinks.map((cart) => (
                 <Link key={cart.id} href={`/${cart.link}`} className='font-medium'>{cart.title}</Link>
